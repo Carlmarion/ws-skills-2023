@@ -6,11 +6,11 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- la différence entre REST et GraphQL ❌ / ✔️
+- la différence entre REST et GraphQL  ✔️ GraphQl is only returning 1 endpoint from which we can call all the methods from the controller
 - les besoins auxquels répond GraphQL ❌ / ✔️
 - la définition d'un schéma
-- Query ❌ / ✔️
-- Mutation ❌ / ✔️
+- Query  ✔️ GET POST DELETE
+- Mutation  ✔️ PUT POST
 - Subscription ❌ / ✔️
 
 ## 💻 J'utilise

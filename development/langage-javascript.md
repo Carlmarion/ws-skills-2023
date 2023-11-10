@@ -1,7 +1,5 @@
 # Langage Javascript
 
-> ❌ A travailler
-
 > ✔️ Auto validation par l'étudiant
 
 ## 🎓 J'ai compris et je peux expliquer
@@ -13,7 +11,23 @@
 
 ## 💻 Je code en Javascript
 
-### Un exemple de code commenté ❌ / ✔️
+### Un exemple de code commenté  ✔️
+
+let hello = "h e l l o w o r l d";
+
+// we create a small function that takes a string as argument and that, 
+with the help of a small regex, 
+will remove spaces between letters
+
+
+function removeSpaces(str) {
+return str.replace(/\s/g, '');
+}
+
+// We call the function onto our variable hello
+
+const wordWithoutSpaces = removeSpaces(hello);
+console.log(wordWithoutSpaces); // will output: "helloworld"
 
 ```javascript
 (e) => mc2;
@@ -31,7 +45,7 @@ Description :
 
 Description :
 
-### J'ai utilisé ce langage en environement professionnel ❌ / ✔️
+### J'ai utilisé ce langage en environement professionnel ✔️
 
 Description :
 
